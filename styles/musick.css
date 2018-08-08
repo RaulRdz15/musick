@@ -1,0 +1,30 @@
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 50px auto;
+  grid-template-columns: 200px auto;
+  background-color: rgb(20,150,150);
+}
+
+header{
+  font-family: Impact;
+  font-size: 150%;
+  text-align: center;
+  background-color: lightblue;
+  color: white;
+  text-shadow: 2px 2px 4px purple;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+nav{
+  font-family: Avenir;
+  background-color: rgb(20,200,200);
+
+}
+
+
+section{
+  font-size: 300%;
+  padding: 20px;
+}
